@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/basic_info_chips_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".Activites.basic_info_chips">
+
+    <include layout="@layout/custom_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:hint="Status">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/Relationship_status_edit_text_basic_info_chips"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:drawableStart="@drawable/noun_relationship"
+                        android:drawableEnd="@drawable/menu_down"
+                        android:drawablePadding="12dp"
+                        android:focusable="false"
+                        android:inputType="text"
+                        android:longClickable="false" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:hint="Enter Gender">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/gender_edit_text_basic_info_chips"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:drawableStart="@drawable/noun_gender"
+                        android:drawableEnd="@drawable/menu_down"
+                        android:drawablePadding="12dp"
+                        android:focusable="false"
+                        android:inputType="text"
+                        android:longClickable="false" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:hint="height">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/height_edit_text_basic_info_chips"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:drawableStart="@drawable/height"
+                        android:drawableEnd="@drawable/menu_down"
+                        android:drawablePadding="12dp"
+                        android:focusable="false"
+                        android:inputType="text"
+                        android:longClickable="false" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:hint="Religion">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/Religion_edit_text_basic_info_chips"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:drawableStart="@drawable/hands_pray"
+                        android:drawableEnd="@drawable/menu_down"
+                        android:drawablePadding="12dp"
+                        android:focusable="false"
+                        android:inputType="text"
+                        android:longClickable="false" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:hint="language">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/language_edit_text_basic_info_chips"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:drawableStart="@drawable/language"
+                        android:drawableEnd="@drawable/menu_down"
+                        android:drawablePadding="12dp"
+                        android:focusable="false"
+                        android:inputType="text"
+                        android:longClickable="false" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:hint="Location">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/location_edit_text_basic_info_chips"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:drawableStart="@drawable/noun_location_"
+                        android:drawableEnd="@drawable/menu_down"
+                        android:drawablePadding="12dp"
+                        android:focusable="false"
+                        android:inputType="text"
+                        android:longClickable="false" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:hint="Smoking">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/Smoke_edit_text_basic_info_chips"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:drawableStart="@drawable/smoking"
+                        android:drawableEnd="@drawable/menu_down"
+                        android:drawablePadding="12dp"
+                        android:focusable="false"
+                        android:inputType="text"
+                        android:longClickable="false" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:hint="Drinking">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/Driking_edit_text_basic_info_chips"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:drawableStart="@drawable/glass_mug_variant"
+                        android:drawableEnd="@drawable/menu_down"
+                        android:drawablePadding="12dp"
+                        android:focusable="false"
+                        android:inputType="text"
+                        android:longClickable="false" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/save_button_basic_info_chips"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:backgroundTint="@color/accent_color"
+                    android:text="save"
+                    android:visibility="visible" />
+
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+</LinearLayout>

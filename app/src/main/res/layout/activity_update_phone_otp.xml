@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/background_color"
+    android:layout_height="match_parent"
+    tools:context=".Activites.update_phone_otp">
+<include layout="@layout/custom_toolbar"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter otp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/opt_edit_text_update_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:drawableStart="@drawable/noun_otp"
+            android:drawablePadding="12dp"
+            android:maxLength="6"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Confirm"
+            android:textColor="@color/text_icon_color"
+            android:backgroundTint="@color/accent_color"
+            android:id="@+id/confirm_otp_button_update_phone"
+            />
+        <TextView
+            android:id="@+id/timerTextView_update_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text_color"
+            android:textSize="20sp"
+            android:visibility="visible"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Resend"
+            android:textColor="@color/text_icon_color"
+            android:backgroundTint="@color/accent_color"
+            android:id="@+id/resend_otp_button_update_phone"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+</LinearLayout>

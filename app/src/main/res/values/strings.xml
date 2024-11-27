@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">DilSeConnect</string>
+    <string name="dilseconnect">DilSeConnect</string>
+    <string name="terms">By tapping this button you agree to our Terms</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edit">Edit</string>
+    <string name="my_story_hint">I am a hopeless romantic and always strive to believe in the good within everyone. I\'m straightforward about my needs, and honest when I feel hurt. I am looking for an equally positive partner who loves to try new experiences and is a great and open communicator.</string>
+</resources>

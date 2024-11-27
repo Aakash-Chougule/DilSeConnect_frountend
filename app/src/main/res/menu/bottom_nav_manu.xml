@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:icon="@drawable/noun_home"
+        android:id="@+id/home_menu_item"/>
+    <item android:title="Premium profiles"
+        android:icon="@drawable/noun_gold_crown"
+        android:id="@+id/Primium_profiles_menu_item"/>
+    <item android:title="Messages"
+        android:icon="@drawable/noun_message"
+        android:id="@+id/Messages_menu_item"/>
+    <item android:title="Account"
+        android:icon="@drawable/noun_account"
+        android:id="@+id/account_menu_item"/>
+</menu>

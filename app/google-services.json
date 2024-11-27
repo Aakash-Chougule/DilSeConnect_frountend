@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "121873444144",
+    "project_id": "dilseconnect-5bffa",
+    "storage_bucket": "dilseconnect-5bffa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121873444144:android:69f870531488b14e656cf5",
+        "android_client_info": {
+          "package_name": "com.vivid.dilseconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhjiUmbNgBa5WS49O-JTfjJmgBVeSPuQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android:permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DilSeConnect"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activites.sendsms"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.help"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.privacy_settings"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.update_phone_otp"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.phone_number"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.update_phone_number"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.settings"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.logout_account"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.delete_account"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.deactivate_account"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.account_settings"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.search_history"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.you_liked_profiles"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.liked_by_others"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.relationship_goal"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.philosophy"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.qualities"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.intrests"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.my_story_chips"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.mantra_chips"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.basic_info_chips"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.edit_images_account"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.view_profile"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.basic_info"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.purchase_plan"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.Message_profile"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.profiles_preview"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.Home_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.Welcome_app"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.Relationship_status"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.Login_and_info.Get_habbits"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.Religion"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.Login_and_info.Get_haight"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.Login_and_info.Get_images_fof_profile"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.Tell_about_yourself"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.Login_and_info.Get_otp"
+            android:exported="false"
+            android:parentActivityName=".Activites.Login_and_info.Login_via_phone_no" />
+        <activity
+            android:name=".Activites.Login_and_info.Login_via_phone_no"
+            android:exported="false"
+            android:parentActivityName=".Activites.Login_and_info.LoginPage" />
+        <activity
+            android:name=".Activites.Login_and_info.LoginPage"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.splashscreen"
+            android:exported="true"
+            android:theme="@style/Theme.NoPreviewWindow">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:parentActivityName=".Activites.Login_and_info.Login_via_phone_no" />
+    </application>
+
+</manifest>

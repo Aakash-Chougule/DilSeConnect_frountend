@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/Get_habbits_layout"
+    android:background="@color/background_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activites.Login_and_info.Get_habbits">
+
+    <include layout="@layout/custom_toolbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="What Is Your \nHabbits?"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Do You Smoke?"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Smoking">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Smoke_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:drawableStart="@drawable/smoking"
+            android:drawablePadding="12dp"
+            android:focusable="false"
+            android:clickable="false"
+            android:longClickable="false"
+            android:drawableEnd="@drawable/menu_down" />
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Do You Drink?"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Drinking">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Driking_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:drawableStart="@drawable/glass_mug_variant"
+                android:drawablePadding="12dp"
+                android:focusable="false"
+                android:clickable="false"
+                android:longClickable="false"
+                android:drawableEnd="@drawable/menu_down" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_margin="10dp"
+            android:layout_gravity="end"
+            android:textColor="@color/text_icon_color"
+            android:backgroundTint="@color/accent_color"
+            android:id="@+id/next_button_habits_layout" />
+    </LinearLayout>
+</LinearLayout>
